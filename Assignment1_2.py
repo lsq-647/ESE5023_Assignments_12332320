@@ -18,7 +18,7 @@ def Matrix_multip():
         for j in range(columns2):
             sum = 0
             for k in range(columns1):
-                sum += M1[i][k] * M2[k][j]
+                sum += M1[i, k] * M2[k, j]
             row.append(sum)
         result.append(row)
     return result
