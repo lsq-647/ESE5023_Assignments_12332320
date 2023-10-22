@@ -10,12 +10,7 @@ def Pascal_triangle(k):
         line.append(cul)
     return cul
 
-Pascal_triangle(100)
-Pascal_triangle(200)
+print(Pascal_triangle(100))
+print(Pascal_triangle(200))
 
 # I consulted this website to help me: https://blog.csdn.net/W_chuanqi/article/details/123679167
-
-
-
-
-
