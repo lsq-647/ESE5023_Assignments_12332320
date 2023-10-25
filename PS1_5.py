@@ -43,5 +43,9 @@ Total_solutions = []
 for i in range(1, 101):
     Total_solutions.append(Find_expression(i))
 print(Total_solutions)
+print(max(Total_solutions))
+print(Total_solutions.index(max(Total_solutions)))
+print(min(Total_solutions))
+print(Total_solutions.index(min(Total_solutions)))
 
 # I consulted ChatGPT to help me.
